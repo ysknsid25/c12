@@ -1,0 +1,8 @@
+{
+  "theme": "dark",
+  "language": "en",
+  "preferences": {
+    "notifications": true,
+    "autoSave": false
+  }
+}

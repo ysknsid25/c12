@@ -1,0 +1,24 @@
+app:
+  name: MyApp
+  version: 3.0.0
+  description: YAML形式で設定されたアプリケーション
+
+server:
+  port: 5000
+  host: 127.0.0.1
+  ssl:
+    enabled: true
+    cert: /path/to/cert.pem
+    key: /path/to/key.pem
+
+database:
+  type: postgresql
+  connection:
+    host: db.example.com
+    port: 5432
+    database: myapp_prod
+
+features:
+  - authentication
+  - caching
+  - monitoring

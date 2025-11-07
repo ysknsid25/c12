@@ -1,0 +1,14 @@
+{
+  "name": "c12-tutorial-examples",
+  "version": "1.0.0",
+  "description": "c12チュートリアルのサンプルコード",
+  "type": "module",
+  "scripts": {
+    "example:basic": "node 01-basic-usage.js",
+    "example:formats": "node 02-multiple-formats.js",
+    "example:env": "node 03-environment-config.js",
+    "example:extend": "node 04-config-extension.js",
+    "example:watch": "node 05-watch-config.js",
+    "all": "npm run example:basic && npm run example:formats && npm run example:env && npm run example:extend"
+  }
+}

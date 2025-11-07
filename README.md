@@ -52,13 +52,13 @@ npm install c12
 yarn add c12
 
 # pnpm
-pnpm install c12
+pnpm add c12
 
 # bun
 bun install c12
 
 # deno
-deno install c12
+deno install npm:c12
 ```
 
 <!-- /automd -->
@@ -396,13 +396,13 @@ npm install -D magicast
 yarn add -D magicast
 
 # pnpm
-pnpm install -D magicast
+pnpm add -D magicast
 
 # bun
 bun install -D magicast
 
 # deno
-deno install --dev magicast
+deno install --dev npm:magicast
 ```
 
 <!-- /automd -->
